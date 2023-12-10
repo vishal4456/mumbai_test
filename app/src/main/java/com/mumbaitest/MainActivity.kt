@@ -29,6 +29,7 @@ private lateinit var vm : MainVm
             val layoutManager : RecyclerView.LayoutManager = LinearLayoutManager(this)
             binding.rcView.layoutManager = layoutManager
             binding.rcView.adapter = adapter
+
         }
     }
 
